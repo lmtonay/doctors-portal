@@ -1,0 +1,10 @@
+.blog .section-title {
+    font-weight: bold;
+    color: #4bb4b4;
+    text-align: center;
+}
+
+.blog .section-bio {
+    text-align: center;
+    margin: 20px 0;
+}

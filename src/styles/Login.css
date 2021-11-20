@@ -1,0 +1,11 @@
+.login {
+    min-height: 100vh;
+    position: relative;
+}
+
+.login .illustration {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    right: 0;
+}

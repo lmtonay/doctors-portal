@@ -1,0 +1,17 @@
+.testimonial > .container > h5 {
+  font-weight: bold;
+  color: #4bb4b4;
+  text-transform: uppercase;
+}
+
+.testimonial {
+  margin-top: 110px;
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .testimonial {
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+}

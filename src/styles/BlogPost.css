@@ -1,0 +1,9 @@
+.blogpost {
+    border-radius: 5px;
+    padding: 40px 20px;
+    box-shadow: 0 1px 2px lightgrey;
+}
+
+.blog .content p {
+    color: rgb(180, 180, 180);
+}

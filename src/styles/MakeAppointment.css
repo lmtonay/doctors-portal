@@ -1,0 +1,35 @@
+.make-appointment {
+  background: url(../images/appointment.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  color: white;
+  margin-top: 200px;
+}
+
+.make-appointment .ma-doctor-img {
+  transform: translateY(-14%) scale(1.5);
+}
+
+.make-appointment .text {
+    font-size: 50px,
+}
+
+@media screen and (max-width: 991px) {
+  .make-appointment {
+    margin-top: 50px;
+  }
+  .make-appointment .ma-doctor-img {
+    transform: translateY(14%) scale(2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .make-appointment .ma-doctor-img {
+    display: none;
+  }
+  .make-appointment .text {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,34 @@
+.homepage {
+  background-image: url(../images/hero-bg.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -80px;
+}
+
+.homepage .right-color {
+  background: #3a4256;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 29%;
+  height: 700px;
+}
+
+@media screen and (min-width: 1820px) {
+  .homepage .right-color {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1375px) and (max-width: 1725px) {
+  .homepage .right-color {
+    width: calc(100% - 1200px);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .homepage .right-color {
+    display: none;
+  }
+}

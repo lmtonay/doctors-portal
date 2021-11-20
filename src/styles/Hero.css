@@ -1,0 +1,17 @@
+.hero {
+    padding-top: 180px;
+    position: relative;
+    z-index: 100;
+}
+
+.hero .title{
+    font-weight: 600;
+    color: #203047;
+}
+
+.hero .bio{
+    margin: 20px 0;
+    font-size: 15px;
+    color: #B4B4B4;
+    line-height: 30px;
+}

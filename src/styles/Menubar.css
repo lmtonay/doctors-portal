@@ -1,0 +1,45 @@
+.navbar {
+  background-color: transparent;
+  padding: 50px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar .nav-item {
+  color: #707070;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar .nav-item:hover {
+  color: black;
+}
+
+.navbar .nav-brand {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1820px) {
+  .nav-item.text-light {
+    color: #707070 !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    background-color: #fff;
+    padding: 20px 0;
+  }
+
+  .navbar .nav-item {
+    color: #707070 !important;
+    margin: 5px 0 !important;
+    text-decoration: none;
+  }
+}

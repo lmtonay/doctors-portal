@@ -1,0 +1,42 @@
+.hero-block {
+  border-radius: 5px;
+  height: 100px;
+  color: white;
+  display: flex;
+  padding: 20px 10px;
+}
+
+.hero-block .icon-box {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero-block .icon-box img {
+  height: 70%;
+}
+
+.hero-block .text-box {
+  width: 60%;
+  height: 100%;
+}
+
+.hero-block .text-box .text {
+  margin: auto 0;
+}
+
+.hero-block .text-box .text h6 {
+  font-weight: bold;
+}
+
+.hero-block .text-box .text p {
+  line-height: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-block {
+      margin: 10px 0;
+  }
+}

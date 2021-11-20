@@ -1,0 +1,24 @@
+.test-block{
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px lightgray;
+    padding: 50px 20px;
+}
+
+.test-block p{
+    color: #6b6b6b;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.test-block .img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.test-block .img img{
+    width: 100%;
+}
+.test-block .text h5{
+    color: #4bb4b4;
+}

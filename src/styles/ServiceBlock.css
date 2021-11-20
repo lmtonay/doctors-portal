@@ -1,0 +1,19 @@
+.s-block {
+    height: 220px;
+    position: relative;
+}
+
+.s-block .text-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.s-block .text-box h6{
+    color: #565E69;
+}
+
+.s-block .text-box p {
+    color: #B4B4B4;
+    line-height: 18px;
+}
